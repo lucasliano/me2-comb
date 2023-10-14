@@ -1,60 +1,31 @@
 <!--
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** repo_name, project_title, project_description
+*** me2-comb, Multi-Band Combiner, project_description
 -->
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/lucasliano/repo_name">
+  <a href="https://github.com/lucasliano/me2-comb">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">Multi-Band Combiner</h3>
 
   <p align="center">
-    project_description
+    Final Project of ME2
     <br />
-    <a href="https://github.com/lucasliano/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/lucasliano/me2-comb"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/lucasliano/repo_name">View Demo</a>
+    <a href="https://github.com/lucasliano/me2-comb">View Demo</a>
     ·
-    <a href="https://github.com/lucasliano/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/lucasliano/me2-comb/issues">Report Bug</a>
     ·
-    <a href="https://github.com/lucasliano/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/lucasliano/me2-comb/issues">Request Feature</a>
   </p>
 </p>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <<li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
-
 
 
 <!-- ABOUT THE PROJECT -->
@@ -62,59 +33,19 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`lucasliano`, `repo_name`, `lliano@frba.utn.edu.ar`, `project_title`, `project_description`
+The objective of this project is to design, simulate, implement and measure a 5-band directional combiner. Therefore, this device must have 5 input ports and a single output. Each input will receive a 500MHz wide bandwidth signal, located at a different carrier frequency, sweeping the range between 0, 5GHz and 4, 5GHz. The output impedance shall be matched to a line impedance of 50Ω.
 
 
-### Built With
+## Project Rationale
+Quantum computing is a novel field of study within science. The aim of quantum computing is to harness some of the principles of elementary particle functioning and apply them to the area of computing. Such computers have the capacity to solve problems that would take a traditional computer decades to solve, but they do not have the capacity to solve traditional problems as efficiently, and require specific hardware to highlight the quantum phenomenology of the particles involved.
 
-* []()
-* []()
-* []()
-
+At the same time, part of the complexity inherent in this application is the design of directional couplers. These couplers are in charge of mixing different paths of the circuit, keeping the properties of the qubits associated with the process unchanged. This is why the motivation of this project is to take a first step towards the development of these technologies at a national level.
 
 
-<!-- GETTING STARTED -->
-## Getting Started
+## Built With
 
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/lucasliano/repo_name.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/lucasliano/repo_name/issues) for a list of proposed features (and known issues).
-
+* [CST Studio Suite](https://www.3ds.com/es/productos-y-servicios/simulia/productos/cst-studio-suite/)
+* [KiCAD](https://www.kicad.org/)
 
 
 <!-- CONTRIBUTING -->
@@ -142,16 +73,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Lucas Liaño - lliano@frba.utn.edu.ar
 
-Project Link: [https://github.com/lucasliano/repo_name](https://github.com/lucasliano/repo_name)
+Manuel Dieguez - madieguez@frba.utn.edu.ar
 
+Juan Costa Suarez - jcostasurez@frba.utn.edu.ar
 
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
+Project Link: [https://github.com/lucasliano/me2-comb](https://github.com/lucasliano/me2-comb)
 
 
 
