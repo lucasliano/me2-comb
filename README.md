@@ -31,7 +31,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][pcb-3d]](https://example.com)
 
 The objective of this project is to design, simulate, implement and measure a 5-band directional combiner. Therefore, this device must have 5 input ports and a single output. Each input will receive a 500MHz wide bandwidth signal, located at a different carrier frequency, sweeping the range between 0, 5GHz and 4, 5GHz. The output impedance shall be matched to a line impedance of 50Ω.
 
@@ -86,3 +86,5 @@ Project Link: [https://github.com/lucasliano/me2-comb](https://github.com/lucasl
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [product-screenshot]: images/screenshot.png
+[pcb-screenshot]: images/PCB_3d.png
+[pcb-3d]: images/PCB_3d.png
